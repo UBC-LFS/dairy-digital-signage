@@ -1,5 +1,5 @@
 ---
-title: Adventure Slideshow
+title: Bartholomew
 layout: slideshow
 ---
 

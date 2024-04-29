@@ -1,5 +1,5 @@
 ---
-title: Adventure Slideshow
+title: Archie
 layout: slideshow
 ---
 

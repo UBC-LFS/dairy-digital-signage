@@ -3,54 +3,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        /* Change default styling. */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        /* Slideshow container */
-        .slideshow-container {
-            position: relative;
-            height: 100vh;
-            width: 100%;
-            overflow: hidden;
-        }
-
-        /* Slides */
-        .mySlides {
-            position: absolute;
-            top: 0;
-            left: 0;
-            height: 100%;
-            width: 100%;
-            opacity: 0;
-            transition: opacity 3s ease-in-out;
-        }
-
-        img {
-            height: 100%;
-            width: 100%;
-        }
-    </style>
+    <link rel="stylesheet" href="/assets/css/slideshow_style.css">
   </head>
   <body>
     {{ content }}
-  <script>
-    let curr = 0;
-    let slides = document.getElementsByClassName("mySlides");
-    slides[0].style.opacity = 1;  // Start first image as visible
-
-    function showSlides() {
-        let next = (curr + 1) % slides.length;
-        slides[curr].style.opacity = 0;  // Current slide fades out
-        slides[next].style.opacity = 1;  // Next slide fades in
-        curr = next;
-        setTimeout(showSlides, 5000);
-    }
-    setTimeout(showSlides, 5000);
+  <script src="/assets/js/change_slides.js">
   </script>
 </body>
 </html>

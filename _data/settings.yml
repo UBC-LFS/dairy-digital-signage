@@ -1,0 +1,10 @@
+a:
+  url: a
+  update: 5
+  name: Archie
+  folder: archie
+b:
+  url: b
+  update: 15
+  name: Bartholomew
+  folder: bartholomew

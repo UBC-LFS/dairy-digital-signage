@@ -21,15 +21,17 @@
 title: Dairy Digital Signage
 email: ayden.kinchla@ubc.ca
 description: >- # this means to ignore newlines until "baseurl:"
-  Displays images for the UBC Dairy Farm in a customizable slideshow format. Is built for two slideshows at a time.
+  Displays images for the UBC Dairy Farm in a customizable slideshow format.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  AydenTheKinch
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
+
+header_pages:
+  - a.md
+  - b.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.

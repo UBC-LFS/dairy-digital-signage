@@ -28,12 +28,10 @@ github_username:  AydenTheKinch
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
 
 header_pages:
-  - archie.md
-  - bartholomew.md
+  - a.md
+  - b.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -1,18 +1,19 @@
 ---
-title: Bartholomew
-layout: slideshow
+layout: slideshow 
 ---
-{%- assign slideshow_folder = site.data.settings.bartholomew.folder -%}
+{{ content }}
 <div class="slideshow-container">
+{%- assign slideshow_folder = site.data.settings[page.screen].folder -%}
 {%- assign image_files = site.static_files -%}
 {%- for file in image_files -%}
     {%- if file.path contains slideshow_folder -%}
         <div class="mySlides fade">
-            <img src="{{ file.path }}" alt="Slideshow image">
+            <img src="{{ file.path | relative_url }}" alt="Slideshow image">
         </div>
     {%- endif -%}
 {%- endfor -%}
 </div>
 <script>
-    var interval = {{site.data.settings.bartholomew.update}} * 1000
+    var interval = {{ site.data.settings[page.screen].update }} * 1000;
 </script>
+

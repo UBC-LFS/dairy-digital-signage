@@ -1,15 +1,6 @@
 ---
 title: Archie
-layout: slideshow
+layout: image_slideshow
+slideshow_folder: archie
 ---
 
-<div class="slideshow-container">
-{% assign image_files = site.static_files %}
-{% for file in image_files %}
-{% if file.path contains 'archie/' %}
-    <div class="mySlides fade">
-        <img src="{{ file.path }}">
-    </div>
-{% endif %}
-{% endfor %}
-</div>

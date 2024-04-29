@@ -1,4 +1,6 @@
-let interval = 5000
+if (typeof interval === "undefined") {
+    var interval = 5000
+}
 let curr = 0;
 let slides = document.getElementsByClassName("mySlides");
 slides[0].style.opacity = 1;  // Start first image as visible

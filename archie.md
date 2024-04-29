@@ -13,4 +13,7 @@ layout: slideshow
     {%- endif -%}
 {%- endfor -%}
 </div>
+<script>
+    var interval = {{site.data.settings.archie.update}} * 1000
+</script>
 

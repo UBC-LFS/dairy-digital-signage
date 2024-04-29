@@ -13,3 +13,6 @@ layout: slideshow
     {%- endif -%}
 {%- endfor -%}
 </div>
+<script>
+    var interval = {{site.data.settings.bartholomew.update}} * 1000
+</script>

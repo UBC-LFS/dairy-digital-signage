@@ -21,7 +21,6 @@ layout: home
     </style>
   </head>
   <body>
-<a href="{{site.url}}/archie" class="button">Archie</a>
-<a href="{{site.url}}/bartholomew" class="button">Bartholomew</a>
+  
 </body>
 </html>

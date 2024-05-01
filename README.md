@@ -42,6 +42,10 @@ It's recommended to use images with a resolution of at least 1920x1080 and an as
 
 Samsung Smart TV's use SamSung Internet Browser. It supports .png, .jpg, .webp, .gif, .apng, .pdf, .ico, and .bmp files. 
 
+### Ordering Slides
+
+Slides are automatically organized alphanumerically in the slideshow folders. If you want to change the ordering, you should add 1a, 1b, 1c... 2a, 2b ... etc. to the front of each file name. If a view is given multiple folders to pull from, it will show all slides in the first folder first and then show all the slides in the second folder before looping. 
+
 ### Adding Views
 
 To add a new view (and a new slideshow), you need to create a new key in settings.yml and a new page. The new key should have all the setttings listed above.

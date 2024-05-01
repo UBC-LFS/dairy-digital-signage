@@ -8,7 +8,7 @@ You can access the website at [aydenthekinch.git.io](https://aydenthekinch.githu
 
 To add a file, drag and drop it into the file explorer. To delete a file, select it and click the three dots in the upper right corner. Then click delete file. 
 
-GitHub Pages can only publish repositories that are smaller than 1GB. Most 1960x1080 images are 0.5 to 1 MB. GIFs and videos are substantially larger. This repository should not be your only storage for certain media files. You always delete older slideshows to make space.
+GitHub Pages can only publish repositories that are smaller than 1GB. Most 1920x1080 images are 0.5 to 1 MB. GIFs and videos are substantially larger. This repository should not be your only storage for certain media files. You always delete older slideshows to make space.
 
 ## Settings.yml
 
@@ -38,7 +38,7 @@ This is the path from the root to the file associated with each view. You should
 
 In order to add slides to a slide show, you can either add images to an existing folder or make a new folder and put it in 'slideshows'. You can edit setting.yml for each view to cycle through the images of one or more folders. 
 
-It's recommended to use images with a resolution of at least 1960x1080 and an aspect ratio close to 16:9 to preserve the most quality when displayed the TV's set up in the UBC Dairy Farm. 
+It's recommended to use images with a resolution of at least 1920x1080 and an aspect ratio close to 16:9 to preserve the most quality when displayed the TV's set up in the UBC Dairy Farm. 
 
 Samsung Smart TV's use SamSung Internet Browser. It supports .png, .jpg, .webp, .gif, .apng, .pdf, .ico, and .bmp files. 
 

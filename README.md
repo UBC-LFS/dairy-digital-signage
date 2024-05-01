@@ -12,7 +12,7 @@ To add a file, drag and drop it into the file explorer. To delete a file, select
 
 First, navigate to the _data folder and open the settings.yml file. Here you will see a dictionary of all the active slideshows.
 
-![settings example](/assets/images/settings_example.jpg){:class="img-responsive"}
+![settings example](/assets/images/settings_example.png){:class="img-responsive"}
 
 Editing this file can change several elements of the slideshow.
 
@@ -21,7 +21,7 @@ The settings.yml is a dictionary of views paired to a list of settings.
 ### Name
 This is what is displayed in the header of the landing page. This is primarily for organizational use.
 
-![header example](/assets/images/name_header_example.jpg){:class="img-responsive"}
+![header example](/assets/images/name_header_example.png){:class="img-responsive"}
 
 ### Update
 This changes the length of time each slide is shown before updating. The time is in seconds, so 300 is 5 minutes and 3600 is 1 hour.

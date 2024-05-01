@@ -4,7 +4,7 @@ This project is a web-based slideshow system, built using Jekyll and running on 
 
 ## Making Changes
 
-You can access the website at [aydenthekinch.git.io](https://aydenthekinch.github.io/b). To make changes, you need permission to edit this repository. You can navigate to a file and edit it directly from GitHub browser. After every change, you must "Commit changes" before they can take effect.
+You can access the website at [aydenthekinch.git.io](https://aydenthekinch.github.io). To make changes, you need permission to edit this repository. You can navigate to a file and edit it directly from GitHub browser. After every change, you must "Commit changes" before they can take effect.
 
 To add a file, drag and drop it into the file explorer. To delete a file, select it and click the three dots in the upper right corner. Then click delete file. 
 

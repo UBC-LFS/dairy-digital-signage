@@ -2,7 +2,9 @@
 
 This project is a web-based slideshow system, built using Jekyll and running on GitHub Pages.
 
-# Making Changes
+## Making Changes
+
+You can access the website at aydenthekinch.git.io. To make changes, you need permission to edit this repository. You can navigate to a file and edit it directly from GitHub browser.
 
 ## Settings.yml
 

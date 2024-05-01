@@ -5,7 +5,7 @@
 layout: home
 title: Introduction
 ---
-![signage-introduction](/assets/images/signage_apple_intro.jpg){:class="img-responsive"}
+![signage-introduction](/assets/images/signage_dairy_intro.jpg){:class="img-responsive"}
 
 Hello! Welcome to the Dairy Digital Signage website. Here you can upload images and display them as automatic slideshows. It's built using GitHub Pages, so in order to update the slides you must have access to the repository.
 

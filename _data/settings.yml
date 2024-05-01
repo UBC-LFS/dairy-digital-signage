@@ -2,9 +2,9 @@ a:
   url: a
   update: 5
   name: Archie
-  folder: archie
+  folders: [archie, dairy]
 b:
   url: b
-  update: 15
+  update: 5
   name: Bartholomew
-  folder: bartholomew
+  folders: bartholomew

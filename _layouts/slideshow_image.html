@@ -1,19 +1,25 @@
 ---
-layout: slideshow 
+layout: fullscreen
 ---
 {{ content }}
 <div class="slideshow-container">
-{%- assign slideshow_folder = site.data.settings[page.screen].folder -%}
+{%- assign folders = site.data.settings[page.screen].folders -%}
 {%- assign image_files = site.static_files -%}
-{%- for file in image_files -%}
-    {%- if file.path contains slideshow_folder -%}
-        <div class="mySlides fade">
-            <img src="{{ file.path | relative_url }}" alt="Slideshow image">
-        </div>
-    {%- endif -%}
+{%- assign first = true -%}
+{%- for folder in folders -%}
+    {%- for file in image_files -%}
+        {%- if file.path contains folder -%}
+            <div class="mySlides fade{% if first %} first-slide{% endif %}">
+                <img src="{{ file.path | relative_url }}" alt="Slideshow image">
+            </div>
+            {%- assign first = false -%}
+        {%- endif -%}
+    {%- endfor -%}
 {%- endfor -%}
 </div>
 <script>
     var interval = {{ site.data.settings[page.screen].update }} * 1000;
+</script>
+<script src="/assets/js/change_slides.js">
 </script>
 

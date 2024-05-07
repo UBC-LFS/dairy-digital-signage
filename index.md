@@ -17,6 +17,30 @@ To open a slideshow, click on its name in this page's header. Each slideshow can
 
 To access the GitHub repository, click on the GitHub (Admin) link.
 
+Here is a list of current slideshows (these cards will automatically update after editing the settings.yml file).
+
+<ul style="list-style-type: none; padding: 0;">
+{% for view in site.data.settings %}
+    <li style="margin-bottom: 20px; padding: 10px; border: 1px solid #ccc; box-shadow: 0 2px 4px rgba(0,0,0,0.15);">
+        <strong>Name:</strong> {{ view[1].name }}
+        <br>
+        <strong>Update Interval:</strong> {{ view[1].update }} seconds
+        <br>
+        <strong>Image Folders:</strong>
+        <span style="display: inline-block; padding: 3px; background-color: #f0f0f0; border-radius: 3px;">
+            {% for folder in view[1].folders %}
+                {{ folder }}
+                {% if forloop.last == false %}, {% endif %}
+            {% endfor %}
+        </span>
+    </li>
+{% endfor %}
+</ul>
+
 ## Making Changes
 
-If you want to update the website, head to the GitHub repository and take a look at the README. 
+If you want to update the website, head to the <a class="page-link" href="https://github.com/AydenTheKinch/aydenthekinch.github.io">GitHub repository</a> and take a look at the README. 
+
+
+
+

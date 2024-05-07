@@ -19,7 +19,7 @@ To edit the slide interval or folders accessed by a specefic slideshow, navigate
 
 ![settings example](/assets/images/settings_example.png)
 
-Here you can see multiple settings, Name, Update, Folder, and URL. Each will be explained in more detail below. 
+Here you can see multiple settings, Name, Update, Folders, and URL. Each will be explained in more detail below. 
 
 ### Name
 This is what is displayed in the header of the landing page.
@@ -29,7 +29,7 @@ This is what is displayed in the header of the landing page.
 ### Update
 This changes the length of time each slide is shown before updating. The time is in seconds, so 300 is 5 minutes and 3600 is 1 hour.
 
-### Folder
+### Folders
 This is the name of the subfolder in "slideshows" that contains the images to be displayed. You can list multiple folders and the view will cycle through all the photos in each of them.
 
 ### URL

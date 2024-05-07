@@ -8,7 +8,7 @@ You can access the website at [aydenthekinch.git.io](https://aydenthekinch.githu
 
 To add a file, drag and drop it into the file explorer. To delete a file, select it and click the three dots in the upper right corner. Then click delete file. 
 
-GitHub Pages can only publish repositories that are smaller than 1GB. Most 1920x1080 images are 0.5 to 1 MB. GIFs and videos are substantially larger. This repository should not be your only storage for certain media files. You always delete older slideshows to make space.
+GitHub Pages can only publish repositories that are smaller than 1GB. Most 1920x1080 images are 0.5 to 1 MB. GIFs and videos are substantially larger. This repository should not be your only storage for certain media files. You can always delete older slideshows to make space.
 
 ## Settings.yml
 

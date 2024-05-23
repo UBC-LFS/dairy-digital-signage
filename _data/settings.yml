@@ -1,7 +1,7 @@
 a:
   name: Archie
-  update: 5
-  folders: [archie, dairy]
+  update: 15
+  folders: dairy
   url: a
 b:
   name: Bartholomew

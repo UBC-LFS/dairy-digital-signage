@@ -1,10 +1,10 @@
 a:
   name: Archie
-  update: 15
-  folders: dairy
+  update: 30
+  folders: archie
   url: a
 b:
   name: Bartholomew
-  update: 10
+  update: 30
   folders: bartholomew
   url: b

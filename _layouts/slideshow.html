@@ -4,7 +4,7 @@ layout: fullscreen
 {{ content }}
 <div class="slideshow-container">
 {% assign folders = site.data.settings[page.screen].folders %}
-{% assign image_files = site.static_files %}
+{% assign image_files = site.static_files | sort: 'path' %}
 {% assign first = true %}
 {% for folder in folders %}
     {% for file in image_files %}

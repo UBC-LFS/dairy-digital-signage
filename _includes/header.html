@@ -19,7 +19,7 @@
           <div class="trigger">
             {%- for slideshow in site.data.settings -%}
             {%- if slideshow[1].url -%}
-            <a class="page-link" href="{{site.url}}/{{ slideshow[1].url }}">{{ slideshow[1].name | escape }}</a>
+            <a class="page-link" href="{{site.baseurl}}/{{ slideshow[1].url }}">{{ slideshow[1].name | escape }}</a>
             {%- endif -%}
             {%- endfor -%}
             <a class="page-link" href="https://github.com/UBC-LFS/dairy-digital-signage">Admin (GitHub)</a>

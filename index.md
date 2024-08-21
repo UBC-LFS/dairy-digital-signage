@@ -7,7 +7,7 @@ layout: home
 <ul style="list-style-type: none; padding: 0;">
 {% for view in site.data.settings %}
     <li style="margin-bottom: 20px; padding: 10px; border: 1px solid #ccc; box-shadow: 0 2px 4px rgba(0,0,0,0.15);">
-        <a href= "{{site.url}}/{{ view[1].url }}" style="text-decoration: none; color: inherit; display: block">
+        <a href= "{{site.baseurl}}/{{ view[1].url }}" style="text-decoration: none; color: inherit; display: block">
             <strong>Name:</strong> {{ view[1].name }}
             <br>
             <strong>Update Interval:</strong> {{ view[1].update }} seconds

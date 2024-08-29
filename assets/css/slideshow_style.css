@@ -12,6 +12,7 @@
     height: 100vh;
     width: 100%;
     overflow: hidden;
+    /* Background Color is UBC Blue according to the branding website. */
     background-color: #002145;
 }
 
@@ -33,5 +34,6 @@
 img {
     height: 100%;
     width: 100%;
+    /*Object fit keeps the resolution and allows the letterboxing, you can disable this to stretch the picture*/
     object-fit: contain;
 }

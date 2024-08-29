@@ -53,13 +53,6 @@ Slides are automatically organized alphanumerically in the slideshow folders. If
 
 - When saving a PowerPoint file as a collection of pngs, they are automatically named Slide1, Slide2, Slide3... Slide10, Slide11. In order for the browser to order the images properly, you must add a 0 in front of each single digit slide number (i.e. Slide01, Slide02, etc.). If you do not add a 0, it will order them as Slide1, Slide10, Slide11... Slide 19, Slide2, Slide 20.
 
-### Adding Views
-
-To add a new view (and a new slideshow), you need to create a new key in settings.yml and a new page. The new key should have all the settings listed above.
-The new page only needs to have YAML front matter that includes
-- layout: slideshow_image
-- screen: (name of the new key in setting.yml)
-
 ## Developer Information
 
 ### Requirements:
@@ -72,6 +65,13 @@ The website is contructed using Jekyll and is hosted on Github Pages. Github Pag
 Jekyll is what we're currently using, but Github Pages can support any other static site generator. Read more about Jekyll and Github Pages [here](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll).
 
 Jekyll uses Liquid templating in it's HTML which allows some powerful logic. Review it's [documentation](https://shopify.github.io/liquid/) to learn it's conditional tags as well as the ways it supports iteration.
+
+### Adding Views
+
+To add a new view (and a new slideshow), you need to create a new key in settings.yml and a new page. The new key should have all the settings listed above.
+The new page only needs to have [YAML](https://jekyllrb.com/docs/front-matter/) front matter that includes
+- layout: slideshow_image
+- screen: (name of the new key in setting.yml)
 
 ### Testing Locally 
 

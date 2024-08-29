@@ -67,7 +67,7 @@ The new page only needs to have YAML front matter that includes
 
 ### GitHub Pages and Jekyll
 
-The website is contructed using Jekyll and is hosted on Github Pages. Github Pages allows static websites to be accessed through their Github repository, which holds all the pages it uses to make up the website.
+The website is contructed using Jekyll and is hosted on Github Pages. Github Pages allows static websites to be accessed through their Github repository, which holds all the pages it uses to make up the website. Static pages do not support the storing of data for users, and thus do not use a database. This means that all changes to the site must be made through GitHub.
 
 Jekyll is what we're currently using, but Github Pages can support any other static site generator. Read more about Jekyll and Github Pages [here](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll).
 
@@ -77,3 +77,6 @@ Jekyll uses Liquid templating in it's HTML which allows some powerful logic. Rev
 
 It is recommended that you install Jekyll, Bundler, and Ruby on your machine so that you can run the site locally when testing changes. Follow the documentation [here](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll) to do so. 
 
+## Design Philosophy
+
+The diary-digital-signage app is designed to be as straightforward as possible. Make sure any additions can be easily understood and do not require extra steps to utilize.

@@ -59,3 +59,21 @@ To add a new view (and a new slideshow), you need to create a new key in setting
 The new page only needs to have YAML front matter that includes
 - layout: slideshow_image
 - screen: (name of the new key in setting.yml)
+
+## Developer Information
+
+### Requirements:
+* Clone the repo into your preferred IDE, for example, Visual Studio Code
+
+### GitHub Pages and Jekyll
+
+The website is contructed using Jekyll and is hosted on Github Pages. Github Pages allows static websites to be accessed through their Github repository, which holds all the pages it uses to make up the website.
+
+Jekyll is what we're currently using, but Github Pages can support any other static site generator. Read more about Jekyll and Github Pages [here](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll).
+
+Jekyll uses Liquid templating in it's HTML which allows some powerful logic. Review it's [documentation](https://shopify.github.io/liquid/) to learn it's conditional tags as well as the ways it supports iteration.
+
+### Testing Locally 
+
+It is recommended that you install Jekyll, Bundler, and Ruby on your machine so that you can run the site locally when testing changes. Follow the documentation [here](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll) to do so. 
+

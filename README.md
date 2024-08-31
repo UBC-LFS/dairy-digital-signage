@@ -77,6 +77,6 @@ The new page only needs to have [YAML](https://jekyllrb.com/docs/front-matter/) 
 
 It is recommended that you install Jekyll, Bundler, and Ruby on your machine so that you can run the site locally when testing changes. Follow the documentation [here](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll) to do so. 
 
-## Design Philosophy
+### Design Philosophy
 
 The diary-digital-signage app is designed to be as straightforward as possible. Make sure any additions can be easily understood and do not require extra steps to utilize.
